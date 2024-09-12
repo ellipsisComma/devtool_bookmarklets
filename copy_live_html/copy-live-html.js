@@ -1,0 +1,1 @@
+(() => navigator.clipboard.writeText(`${new XMLSerializer().serializeToString(document.doctype)}${document.documentElement.outerHTML}`))();
